@@ -1,4 +1,3 @@
-
 import { ArrowDown, Mail } from 'lucide-react';
 
 const Hero = () => {
@@ -41,7 +40,6 @@ const Hero = () => {
               
               <div className="text-xl lg:text-2xl text-gray-600 dark:text-gray-300 font-medium">
                 <span className="block">Full Stack Developer</span>
-                <span className="text-purple-600 dark:text-purple-400">Web & Backend Engineer</span>
               </div>
               
               <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed">

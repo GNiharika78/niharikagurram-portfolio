@@ -89,7 +89,7 @@ const Projects = () => {
                   </p>
 
                   {/* Tech Stack */}
-                  <div className="flex flex-wrap gap-2 mb-6">
+                  <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech, techIndex) => (
                       <span
                         key={techIndex}
@@ -98,18 +98,6 @@ const Projects = () => {
                         {tech}
                       </span>
                     ))}
-                  </div>
-
-                  {/* Project Links */}
-                  <div className="flex gap-4">
-                    <button className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      <Github size={16} />
-                      <span className="text-sm font-medium">View Code</span>
-                    </button>
-                    <button className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-200">
-                      <ExternalLink size={16} />
-                      <span className="text-sm font-medium">Live Demo</span>
-                    </button>
                   </div>
                 </div>
               </div>
@@ -122,9 +110,14 @@ const Projects = () => {
           <div className="inline-block bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl p-6 text-white">
             <p className="text-lg font-semibold mb-2">Want to see more?</p>
             <p className="text-purple-100 mb-4">Check out my GitHub for additional projects and contributions</p>
-            <button className="bg-white text-purple-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+            <a
+              href="https://github.com/GNiharika78"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-purple-600 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200"
+            >
               Visit GitHub
-            </button>
+            </a>
           </div>
         </div>
       </div>

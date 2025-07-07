@@ -35,7 +35,9 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="#"
+              href="https://github.com/GNiharika78"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 bg-gray-800 rounded-full hover:bg-gray-600 transition-colors duration-200"
               aria-label="GitHub"
             >
